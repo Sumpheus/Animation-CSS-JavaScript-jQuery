@@ -1,0 +1,45 @@
+*{
+   padding:1px;
+   margin:1px;    
+}
+
+.figure1{
+    display: block;
+    border:5px solid darkblue;
+    width:80px;
+    height:80px;
+    box-shadow: -10px 5px 5px;
+    background-image: url('https://media.giphy.com/media/kLdn86DBWeNc4/giphy.gif');
+    transition-duration:5s;
+}
+.figure1:hover{
+    transition-duration:0.2s;
+    border-radius:50px;
+}
+
+.figure2{
+    display:block;
+    border:5px solid darkred;
+    width:80px;
+    height:80px;
+    box-shadow: -10px 5px 5px;
+    background-image: url('https://media.giphy.com/media/UQlxqLyJN0LyAlmdMW/giphy.gif');
+    background-position:center;
+    border-radius:50px;
+    transition-duration:5s;
+}
+.figure2:hover{
+    transition-duration:0.2s;
+    border-radius:0px;
+}
+
+.figure3{
+    display:block;
+    border:5px solid darkgreen;
+    width:80px;
+    height:80px;
+    box-shadow: -10px 5px 5px;
+    background-image: url('https://media.giphy.com/media/xTiTnsiLS09DOXM772/giphy.gif');
+    transform:rotate(46deg);
+    transition-duration:5s;
+}
