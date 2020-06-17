@@ -1,0 +1,160 @@
+*{
+   padding:1px;
+   margin:1px;
+   overflow-y: hidden;
+   overflow-x: hidden;
+   background-color: black;
+}
+
+ul{
+    margin-top: 5px;
+}
+
+.figure1{
+    display: block;
+    border:5px solid darkblue;
+    width:80px;
+    height:80px;
+    box-shadow: -10px 5px 5px;
+    background-image: url('https://media.giphy.com/media/kLdn86DBWeNc4/giphy.gif');
+    transition-duration:5s;
+}
+.figure1:hover{
+    transition-duration:0.2s;
+    border-radius:50px;
+}
+
+.figure2{
+    display:block;
+    border:5px solid darkred;
+    width:80px;
+    height:80px;
+    box-shadow: -10px 5px 5px;
+    background-image: url('https://media.giphy.com/media/UQlxqLyJN0LyAlmdMW/giphy.gif');
+    background-position:center;
+    border-radius:50px;
+    transition-duration:5s;
+}
+.figure2:hover{
+    transition-duration:0.2s;
+    border-radius:0px;
+}
+
+.figure3{
+    display:block;
+    border:5px solid darkgreen;
+    width:80px;
+    height:80px;
+    box-shadow: -10px 5px 5px;
+    background-image: url('https://media.giphy.com/media/xTiTnsiLS09DOXM772/giphy.gif');
+    transform:rotate(46deg);
+    transition-duration:5s;
+}
+
+.figure3:active{
+    transition-duration: 0.4s;
+    transform:rotate(0deg);
+}
+
+.figure4{
+    display:block;
+    border:5px solid aqua;
+    width:80px;
+    height:80px;
+    box-shadow: -10px 5px 5px;
+    background-image: url('https://media.giphy.com/media/xTiTnsiLS09DOXM772/giphy.gif');
+    transform:rotate(46deg);
+    transition-duration:5s;
+}
+
+.figure4:active{
+    transition-duration: 0.4s;
+    transform:rotate(90deg);
+}
+
+
+#test5 div{
+    border-radius: 50px;
+    background-image: url('https://media.giphy.com/media/UQlxqLyJN0LyAlmdMW/giphy.gif');
+    background-position: center;
+    border-color: deeppink;
+}
+
+#test5 div:hover{
+    border-radius: 0px;
+}
+
+.figure5{
+    display:block;
+    border:5px solid;
+    width:80px;
+    height:80px;
+    box-shadow: 10px 5px 5px;
+    background-image: url('https://media.giphy.com/media/xTiTnsiLS09DOXM772/giphy.gif');
+    transition-duration:5s;
+}
+
+.figure5:hover{
+    transition-duration: 0.4s;
+    transform:translate(20px);
+    box-shadow: -10px 5px 5px;
+}
+
+#test6 div{
+    background-image: url('https://media.giphy.com/media/kLdn86DBWeNc4/giphy.gif');
+    border-color: darkgoldenrod;
+}
+#test6 div:hover{
+    border-radius: 50px;
+}
+
+.figure6{
+    display:block;
+    border:5px solid;
+    width:80px;
+    height:80px;
+    box-shadow: -10px 5px 5px;
+    background-image: url('https://media.giphy.com/media/xTiTnsiLS09DOXM772/giphy.gif');
+    transition-duration:5s;
+}
+
+.figure6:hover{
+    transition-duration: 0.4s;
+    transform:translate(-20px);
+    box-shadow: 10px 5px 5px;
+    transform: rotate3d(1, 10, 1, 65deg);
+}
+
+.figure7{
+    display: block;
+    border:5px solid;
+    width:80px;
+    height:80px;
+    box-shadow: -10px 5px 5px;
+    background-image: url('https://media.giphy.com/media/xTiTnsiLS09DOXM772/giphy.gif');
+    transition-duration:5s;
+}
+
+.figure7:hover{
+    transition:1s;
+    transform:rotate(810deg);
+    background-image:url('');
+    box-shadow: 2px 2px 10px gold;
+}
+
+.figure8{
+    display:block;
+    border:5px solid;
+    width:80px;
+    height:80px;
+    box-shadow: -10px 5px 5px;
+    background-image: url('https://media.giphy.com/media/xTiTnsiLS09DOXM772/giphy.gif');
+    transition-duration:5s;
+}
+
+.figure8:hover{
+    transition-duration: 0.4s;
+    transform:translate(-20px);
+    box-shadow: 10px 5px 5px;
+    transform: rotate3d(0, 10, 0.5, -2.1rad);
+}
