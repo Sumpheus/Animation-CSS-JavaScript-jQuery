@@ -1,0 +1,68 @@
+*{
+    
+}
+
+body{
+    
+}
+
+
+/* Ici l'élément qui est modifié */
+#container{
+    margin-top: 50px;
+}
+
+#theobjectcontainer{
+    display: block;
+    border: 1px solid darkgreen;
+    height: 20em;
+    text-align: center;
+
+}
+
+#theobject{
+    display: inline-block;
+    border: 2px solid purple;
+    margin-top: 90px;
+    width: 500px;
+    
+}
+
+#theobject p{
+    font-family:  'MuseoModerno', cursive;
+    text-align: center;
+}
+
+/* Ici la liste de boutons */
+#pushcol{
+    text-align: center;
+    margin: 50px;
+}
+
+#pushcol ul{
+    list-style: none;
+    display: inline-flex;
+}
+
+.pushes{
+    font-family: 'MuseoModerno', cursive;
+    margin: 10px;
+    height: 35px;
+    width: 90px;
+    background: #22a6f2;
+    border-style: outset;
+    transition-duration: 0.5s;
+}
+
+.pushes:hover{
+    transition-duration: 0.5s;
+    box-shadow: 1px 1px 9px 7px #fce114;
+    color: #fce114;
+}
+
+.pushes:active{
+    transition-duration: 0.4s;
+    box-shadow:0px 0px 0px 0px;
+    border-style: inset;
+}
+
